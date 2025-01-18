@@ -1,6 +1,8 @@
 // import React from 'react'
 import WeatherApp from '../assets/images/weather-app.png'
 import TravelApp from '../assets/images/travel-app.png'
+import CarsApp from '../assets/images/car-market.png'
+
 
 function Projects() {
     return (
@@ -23,10 +25,10 @@ function Projects() {
                             <h1 className='text-xl font-bold text-yellow-300 py-3 uppercase '>City Weather App</h1>
                             <p className='text-zinc-400 font-light'>The following process was adopted for the App Development phase:
                                 <ul>
-                                    <li><span className='font-semibold'>Language: </span>HTML + Java</li>
+                                    <li><span className='font-semibold'>Language: </span>HTML + JavaScript</li>
                                     <li><span className='font-semibold'>Framework: </span>Vue.js + Tailwindcss</li>
-                                    <li><span className='font-semibold'>Library: </span>Libraries: Vue</li>
-                                    <li><span className='font-semibold'>API: </span> Free Weather API (https://www.weatherapi.com/).</li>
+                                    <li><span className='font-semibold'>Library: </span>Vue</li>
+                                    <li><span className='font-semibold'>Data: </span> Free Weather API (https://www.weatherapi.com/)</li>
 
                                 </ul>
                             </p>
@@ -38,16 +40,32 @@ function Projects() {
                         <img className='rounded-lg w-[350px] h-[250px] object-center hover:scale-110' src={TravelApp} alt='travel-app'></img>
                         <div className='p-3'>
                             <h1 className='text-xl font-bold text-yellow-300 py-3 uppercase '>Travel App</h1>
-                            <p className='text-zinc-400 font-light'>Analyzed music store data using advanced SQL queires to identify gaps and increase the business growth.</p>
+                            <p className='text-zinc-400 font-light'>The following process was adopted for the App Development phase:
+                                <ul>
+                                    <li><span className='font-semibold'>Language: </span>HTML + JavaScript</li>
+                                    <li><span className='font-semibold'>Framework: </span>React + Tailwindcss</li>
+                                    <li><span className='font-semibold'>Library: </span>React</li>
+                                    <li><span className='font-semibold'>Data: </span> N/A</li>
+
+                                </ul>
+                            </p>
                         </div>
                     </div>
 
                     {/* Cards-3 */}
                     <div className="rounded-lg w-[350px]">
-                        <img className='rounded-lg w-[350px] h-[250px] object-center hover:scale-110' src='https://www.popwebdesign.net/popart_blog/wp-content/uploads/2021/01/car-dealership-web-app.jpg' alt='car-app'></img>
+                        <img className='rounded-lg w-[350px] h-[250px] object-center hover:scale-110' src={CarsApp} alt='car-app'></img>
                         <div className='p-3'>
-                            <h1 className='text-xl font-bold text-yellow-300 py-3 uppercase '>Car App</h1>
-                            <p className='text-zinc-400 font-light'>Analyzed music store data using advanced SQL queires to identify gaps and increase the business growth.</p>
+                            <h1 className='text-xl font-bold text-yellow-300 py-3 uppercase '>Cars App</h1>
+                            <p className='text-zinc-400 font-light'>The following process was adopted for the App Development phase:
+                                <ul>
+                                    <li><span className='font-semibold'>Language: </span>HTML + Java</li>
+                                    <li><span className='font-semibold'>Framework: </span>React + Tailwindcss</li>
+                                    <li><span className='font-semibold'>Library: </span>React</li>
+                                    <li><span className='font-semibold'>Data: </span> Local API</li>
+
+                                </ul>
+                            </p>
                         </div>
                     </div>
                 </div>

@@ -3,7 +3,7 @@ import Numan from "../assets/images/numan_photo.png"
 function Hero() {
     return (
         <div className='container' id="home">
-            <div className="grid grid-cols-2 justify-center items-center pt-20">
+            <div className="grid grid-cols-2 justify-center items-center pt-8">
                 {/* HERO Left */}
                 <div className="col-start-1">
                     <h3 className="text-2xl text-yellow-400 mb-5">Hello!</h3>
@@ -19,8 +19,8 @@ function Hero() {
                 </div>
 
                 {/* HERO Right */}
-                <div className="col-start-2 hero-image">
-                    <img src={Numan} alt=""></img>
+                <div className="col-start-2 hero-image ">
+                    <img className="ml-6" src={Numan} alt="numan-photo"></img>
                 </div>
             </div>
         </div>
