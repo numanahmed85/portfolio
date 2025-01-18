@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        width: 1200px;
+        margin: auto;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        font-family: 'Poppins', sans-serif;
+    }
+}
+
+.typewriter {
+    border-right: 0px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 3s steps(30), cursor .4s step-end infinite reverse;
+    animation-delay: 02;
+    animation-fill-mode: forwards;
+}
+
+
+.typewriter-text {
+    opacity: 0;
+    /* Keeps text hidden initially */
+    animation: fadeIn 0.1s ease-in-out forwards 4s;
+    /* Makes text visible after typing animation ends */
+}
+
+/* Typewriter effect */
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+        /* Reveal the full text */
+    }
+}
+
+/* Blinking cursor effect */
+@keyframes blink {
+    from {
+        border-color: black;
+    }
+
+    to {
+        border-color: transparent;
+    }
+}
+
+/* Fade-in effect to ensure text is visible after typing */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.hero-image {
+    position: relative;
+    animation-name: heroImage;
+    animation-duration: 2s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes heroImage {
+    0% {
+        right: -1000px;
+    }
+
+    100% {
+        right: 0px;
+    }
+}
+
+.hero-tagline {
+    position: relative;
+    animation-name: heading;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes heading {
+    0% {
+        left: -1000px;
+    }
+
+    100% {
+        left: 0px;
+    }
+}
