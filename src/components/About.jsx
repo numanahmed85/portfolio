@@ -16,19 +16,19 @@ function About() {
                                 <div className="pb-2">
                                     <p className="font-light text-zinc-400">HTML 90%</p>
                                     <div className="w-full bg-zinc-700 rounded-full h-2.5 dark:bg-gray-700">
-                                        <div className="bg-yellow-400 h-2.5 rounded-full w-[90%]" ></div>
+                                        <div className="bg-yellow-400 h-2.5 rounded-full w-[90%] progress-animation-1" ></div>
                                     </div>
                                 </div>
                                 <div className="pb-2">
                                     <p className="font-light text-zinc-400">JavaScript 75%</p>
                                     <div className="w-full bg-zinc-700 rounded-full h-2.5 dark:bg-gray-700">
-                                        <div className="bg-yellow-400 h-2.5 rounded-full w-[75%]" ></div>
+                                        <div className="bg-yellow-400 h-2.5 rounded-full w-[75%] progress-animation-2" ></div>
                                     </div>
                                 </div>
                                 <div className="pb-2">
                                     <p className="font-light text-zinc-400">CSS 90%</p>
                                     <div className="w-full bg-zinc-700 rounded-full h-2.5 dark:bg-gray-700">
-                                        <div className="bg-yellow-400 h-2.5 rounded-full w-[90%]" ></div>
+                                        <div className="bg-yellow-400 h-2.5 rounded-full w-[90%] progress-animation-3" ></div>
                                     </div>
                                 </div>
                             </div>
@@ -42,19 +42,19 @@ function About() {
                             <div className="pb-2">
                                 <p className="font-light text-zinc-400">React.js 70%</p>
                                 <div className="w-full bg-zinc-700 rounded-full h-2.5 dark:bg-gray-700">
-                                    <div className="bg-yellow-400 h-2.5 rounded-full w-[70%]" ></div>
+                                    <div className="bg-yellow-400 h-2.5 rounded-full w-[70%] progress-animation-4" ></div>
                                 </div>
                             </div>
                             <div className="pb-2">
                                 <p className="font-light text-zinc-400">Vue.js 70%</p>
                                 <div className="w-full bg-zinc-700 rounded-full h-2.5 dark:bg-gray-700">
-                                    <div className="bg-yellow-400 h-2.5 rounded-full w-[70%]" ></div>
+                                    <div className="bg-yellow-400 h-2.5 rounded-full w-[70%] progress-animation-5" ></div>
                                 </div>
                             </div>
                             <div className="pb-2">
                                 <p className="font-light text-zinc-400">Tailwindcss 85%</p>
                                 <div className="w-full bg-zinc-700 rounded-full h-2.5 dark:bg-gray-700">
-                                    <div className="bg-yellow-400 h-2.5 rounded-full w-[85%]" ></div>
+                                    <div className="bg-yellow-400 h-2.5 rounded-full w-[85%] progress-animation-6" ></div>
                                 </div>
                             </div>
                         </div>
@@ -67,13 +67,13 @@ function About() {
                             <div className="pb-2">
                                 <p className="font-light text-zinc-400">React.js 70%</p>
                                 <div className="w-full bg-zinc-700 rounded-full h-2.5 dark:bg-gray-700">
-                                    <div className="bg-yellow-400 h-2.5 rounded-full w-[70%]" ></div>
+                                    <div className="bg-yellow-400 h-2.5 rounded-full w-[70%] progress-animation-7" ></div>
                                 </div>
                             </div>
                             <div className="pb-2">
                                 <p className="font-light text-zinc-400">Vue.js 70%</p>
                                 <div className="w-full bg-zinc-700 rounded-full h-2.5 dark:bg-gray-700">
-                                    <div className="bg-yellow-400 h-2.5 rounded-full w-[70%]" ></div>
+                                    <div className="bg-yellow-400 h-2.5 rounded-full w-[70%] progress-animation-8" ></div>
                                 </div>
                             </div>
                         </div>
