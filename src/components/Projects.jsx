@@ -62,7 +62,7 @@ function Projects() {
                                     <li><span className='font-semibold'>Language: </span>HTML + Java</li>
                                     <li><span className='font-semibold'>Framework: </span>React + Tailwindcss</li>
                                     <li><span className='font-semibold'>Library: </span>React</li>
-                                    <li><span className='font-semibold'>Data: </span> Local API</li>
+                                    <li><span className='font-semibold'>Data: </span> Internal API</li>
 
                                 </ul>
                             </p>
